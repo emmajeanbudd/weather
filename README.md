@@ -1,4 +1,4 @@
-# weathe
+# Weather
 
 Utilizes the OpenWeatherAPI to output the temperature of a location
 
