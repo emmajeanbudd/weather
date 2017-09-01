@@ -9,10 +9,10 @@ class Weather
     # store user's answer into 'location'
     location = gets
     # call 'return_temp' with the user's location
-    return_temp(location)
+    call_openweather(location)
   end
 
-  def return_temp(location)
+  def call_openweather(location)
     # store response given from openweathermap using api key. Converts returned temperature to imperial degrees
     response = HTTParty.get("https://api.openweathermap.org/data/2.5/weather?q="+location+"&APPID=77be077adaf520bc9a83d9f5cd33c5fe&units=imperial")
     json = JSON.parse(response.body)
