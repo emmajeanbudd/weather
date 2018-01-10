@@ -3,3 +3,8 @@ rvm:
  - 2.2.1
  - jruby
  - rbx-2
+notifications:
+  email:
+    - emmajeanbudd@gmail.com
+env:
+  - ISOLATED=false
