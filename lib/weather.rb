@@ -1,5 +1,6 @@
 require 'httparty'
 require 'json'
+# my github comment
 
 class Weather
   location = ''
